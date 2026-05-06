@@ -11,3 +11,11 @@ l.append(6) #insert element
 print(l)   
 l.remove(6) #remove element
 print(l)
+
+"""tuple data type"""
+t=(1,2,3,"hello",True) #ordered
+print(t)
+print(type(t))
+print(t[-1]) #accessing single element
+t.append(2002) #tuple are immutable
+print(t)
