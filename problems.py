@@ -7,8 +7,8 @@ vowels=s2.count('a') + s2.count('e') + s2.count('i') + s2.count('o') + s2.count(
 print(f"Number of vowels:{vowels}")'''
 
 
-#2....students grade calculator
-#take marks input from user and calculate total marks , average marks and grade based on the following criteria:
+#2.... students' grade calculator
+# Take marks input from user and calculate total marks, average marks and grade based on the following criteria:
 
 '''maths=int(input("marks in maths:"))
 science=int(input("marks in science:"))
@@ -42,8 +42,8 @@ if p==reversed_p:
 else:
     print("The string is not a palindrome")'''
 
-#4....find largest number
-#take three numbers input from user and find the largest number among them
+#4....find the largest number
+# Take three numbers input from the  user and find the largest number among them
 
 '''a=input("Enter three numbers separated by commas:") #take input as a string
 x,y,z=a.split(",") #split the input string into three numbers
@@ -101,3 +101,5 @@ else:
     print("Invalid unit")
 
 print(result)
+
+print("hello ")
